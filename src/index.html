@@ -22,13 +22,37 @@
     </div>
     <!-- //skip -->
 
-    <div id="header">
-        header
+    <div id="header" role="banner">
+        <div class="header_inner">
+            <div class="heade_logo">
+                <h1>
+                   <a href="#">portfolio<em>Vite</em></a>
+                </h1>
+            </div>
+            <nav class="header_nav">
+                <ul>
+                    <li><a href="#intro">intro</a></li>
+                    <li><a href="#skill">skill</a></li>
+                    <li><a href="#site">site</a></li>
+                    <li><a href="#port">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+            <div class="header_nav_mobile" 
+                id="headeToggle" 
+                aria-controls="primary-menu" 
+                aria-expanded="false" 
+                role="button"
+                tabindex="0" 
+            >  <!--tabindex="0" 탭 눌렀을때 순서  -->
+                <span></span>
+            </div>
+        </div>
     </div>
     <!-- //header -->
 
-    <div id="main">
-        <section id="intro">
+    <div id="main" role="main">
+        <section id="intro" >
             intro
         </section>
         <!-- //intro -->
@@ -55,7 +79,7 @@
     </div>
     <!-- //main -->
 
-    <div id="footer">
+    <div id="footer" role="contentinfo">
         footer
     </div>
     <!-- //footer -->
